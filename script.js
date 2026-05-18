@@ -1,6 +1,3 @@
-// ===============================
-// REVEAL ANIMATION (نظيف بدون مشاكل)
-// ===============================
 const sections = document.querySelectorAll(".section");
 
 function reveal(){
@@ -18,9 +15,6 @@ window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
 
-// ===============================
-// HOVER 3D (خفيف وآمن)
-// ===============================
 const box = document.querySelector(".work-box");
 
 if (box) {
@@ -48,9 +42,6 @@ if (box) {
 }
 
 
-// ===============================
-// CINEMATIC LOADER (مرتب)
-// ===============================
 const text = document.getElementById("loader-text");
 
 if(text){
@@ -88,7 +79,6 @@ if(cvBtn){
         text.style.display = "none";
         loading.style.display = "inline-block";
 
-        // يرجع طبيعي بعد ثانيتين
         setTimeout(()=>{
             text.style.display = "inline";
             loading.style.display = "none";
